@@ -1,0 +1,405 @@
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header {
+  background-color: #333;
+  color: white;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+} */
+.nav-list {
+  border: 1px solid none;
+  height: 100px;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  /* padding: 10px 20px; */
+  /* display: inline-block;  */
+  transition: background-color 0.3s ease;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+nav ul li a:hover {
+  background-color: #756d6d;
+  border-radius: 5px;
+}
+
+.appsrc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background-image: url(./souce/home-bg.jpg);
+  background-size: cover;
+}
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  flex: 2;
+  text-align: left;
+  color: aliceblue;
+}
+.content h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.content p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.content .download-btn {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.content .download-btn:hover {
+  background-color: #0056b3;
+}
+.second {
+  background-color: rgb(56, 54, 54);
+  padding: 10px;
+}
+.newapp {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1px;
+}
+.div h2,
+.p2 {
+  color: rgb(234, 234, 244);
+  text-align: start;
+}
+.box-1 {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  border: 1px solid;
+}
+.box-2 {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  border: 1px solid;
+}
+.div,
+.sd,
+.cd {
+  color: blue;
+}
+
+.div .p1 {
+  color: blue;
+  text-align: start;
+}
+span {
+  color: blue;
+}
+.second h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: rgb(233, 225, 225);
+}
+.learnmore {
+  align-items: center;
+  text-align: center;
+  background-color: aqua;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.learnmore .btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 10px;
+}
+.learnmore .btn:hover {
+  background-color: #333;
+}
+.third {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+.third,
+h1,
+p {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow-x: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.ap {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  background-color: #007bff;
+  padding: 30px;
+}
+.ap h1 {
+  color: white;
+  justify-content: center;
+}
+.cost {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.a1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: white;
+  height: 58vh;
+  width: 100%;
+  padding: 2%;
+}
+.title {
+  font-weight: bold;
+  color: aqua;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  padding: 10px;
+}
+.register {
+  padding: 2px 5px;
+  background-color: rgb(15, 243, 243);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.register:hover {
+  background-color: rgb(185, 234, 234);
+}
+.color {
+  color: rgb(123, 13, 226);
+}
+.sn {
+  background-image: url(./souce/newsletter-bg.jpg);
+  background-size: cover;
+  background-color: aqua;
+  color: white;
+  padding: 5px;
+}
+.ys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+}
+.sbtn {
+  background-color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 15px;
+  color: aqua;
+  cursor: pointer;
+}
+.sbtn:hover {
+  background-color: rgb(245, 240, 240);
+}
+footer {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.crt {
+  display: flex;
+  color: white;
+}
+.ion {
+  display: flex;
+  color: white;
+  gap: 10px;
+  /* }
+.menumobile {
+  float: right;
+  display: none;
+  margin-top: 30px;
+  margin-right: 20px;
+  font-size: 30px;
+} */
+  /* @media screen and (max-width: 499px) {
+  .nav-list ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;    
+    background-color: #333;
+  }
+
+  /* Mobile Menu icon */
+  .menumobile {
+    display: block;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* Show nav list when the menu icon is clicked */
+  .nav-list.active ul {
+    display: flex;
+  }
+
+  .nav-list ul li {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .nav-list ul li a {
+    padding: 15px;
+    font-size: 20px;
+  }
+}
+*/
+/* Basic Styles for Navigation */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menumobile {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.menu-icon {
+  display: block; /* Show hamburger icon by default */
+}
+
+.close-icon {
+  display: none; /* Hide close icon by default */
+  float: right;
+}
+
+/* Navigation styles */
+.nav-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-list ul li {
+  margin: 0 15px;
+}
+
+.nav-list ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.nav-list ul li a:hover {
+  background-color: #756d6d;
+  border-radius: 5px;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  /* Hide the navigation links on mobile by default */
+  .nav-list ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    padding: px 0;
+  }
+
+  /* Show the menu ic5on */
+  .menumobile {
+    display: block;
+  }
+  .close-icon {
+    display: inline-block;
+  }
+  /* When the checkbox is checked, show the navigation list */
+  .menu-toggle:checked + .nav-list ul {
+    display: flex;
+  }
+
+  /* Make navigation items stack vertically */
+  .nav-list ul li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .nav-list ul li a {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  /* When the checkbox is checked, show the close icon and hide the menu icon */
+  .menu-toggle:checked + .nav-list ul + .menumobile .menu-icon {
+    display: none; /* Hide hamburger menu */
+  }
+
+  .menu-toggle:checked + .nav-list ul + .menumobile .close-icon {
+    display: block; /* Show close icon */
+  }
+}
